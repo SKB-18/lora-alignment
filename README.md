@@ -1,9 +1,10 @@
 # LoRA & DPO Alignment Lab (`lora-alignment`)
 
-[![Tests](https://img.shields.io/badge/tests-46%20passed-brightgreen.svg)]()
-[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue.svg)]()
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-green.svg)]()
+[![CI](https://github.com/SKB-18/lora-alignment/actions/workflows/ci.yml/badge.svg)](https://github.com/SKB-18/lora-alignment/actions)
+[![Tests: 46 Passed](https://img.shields.io/badge/tests-46%2F46%20passed-brightgreen.svg)](#)
+[![Python: 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](#)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](#)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](#)
 
 Production-grade parameter-efficient fine-tuning (PEFT) and preference alignment framework built from first principles in PyTorch. Implements **Low-Rank Adaptation (LoRA)**, **4-bit NormalFloat Quantized LoRA (QLoRA) with Double Quantization**, and **Direct Preference Optimization (DPO)** without reinforcement learning or explicit reward modeling.
 
